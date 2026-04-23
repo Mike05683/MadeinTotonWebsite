@@ -4,7 +4,7 @@
     --text-secondary: #B0B0B0;
     --accent-gold: #D4AF37;
     --accent-gold-hover: #F9E2AF;
-    --font-serif: 'Playfair Display', serif;
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
     --font-sans: 'Inter', sans-serif;
     --glass-bg: rgba(255, 255, 255, 0.03);
     --glass-border: rgba(255, 255, 255, 0.1);
@@ -46,7 +46,7 @@ body {
 }
 
 .brand-name {
-    font-family: var(--font-serif);
+    font-family: var(--font-heading);
     font-size: clamp(2.5rem, 8vw, 4.5rem);
     font-weight: 700;
     letter-spacing: -0.02em;
